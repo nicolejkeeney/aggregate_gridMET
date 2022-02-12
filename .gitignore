@@ -1,0 +1,24 @@
+# Rstudio files 
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rproj
+
+# Mac metadata file
+.DS_Store
+
+# Pycache 
+__pycache__/*
+
+# Jupyter notebook checkpoints 
+.ipynb_checkpoints
+*/.ipynb_checkpoints/**
+
+# Anything in data folder or any netcdf file 
+data/* 
+*.nc 
+*/*.nc
+
+# Code in bad condition, or that's not mine to share 
+misc_code/*
